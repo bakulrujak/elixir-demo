@@ -1,0 +1,15 @@
+---
+version: 0.2
+
+env:
+  variables:
+    WORD: "Elixir"
+
+phases:
+  pre_build:
+    commands:
+      - echo "WORD=$WORD" > .env
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
