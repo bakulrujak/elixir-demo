@@ -4,7 +4,7 @@ defmodule ElixirDemoWeb.PageView do
 	def render("index.json", %{}) do
 		%{
 			hello: "World",
-			name: "Elixir"
+			name: "Elixirq"
 		}
 	end	
 
