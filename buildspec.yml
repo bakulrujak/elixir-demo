@@ -8,7 +8,7 @@ env:
 phases:
   pre_build:
     commands:
-      - echo "WORD=$WORD" > .env
+      - echo "export WORD=$WORD" > .env
 artifacts:
   files:
     - '**/*'
