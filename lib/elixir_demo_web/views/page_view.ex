@@ -3,8 +3,7 @@ defmodule ElixirDemoWeb.PageView do
 
 	def render("index.json", %{}) do
 		%{
-			hello: "World",
-			name: System.get_env("WORD") || "No name"
+			message: "Hello World"
 		}
 	end	
 
